@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li> 
          <a href="index.html" > Home </a>
         </li>
@@ -17,29 +18,55 @@
         </li>
     </ul>
 
-   <h1> Entre em contato comigo</h1> 
+   <h1 class="center"> Entre em contato comigo</h1> 
 
-   <form>
-    <label for="nome">Nome:</label> <br>
-    <input type="text" id="nome">
-    <br>
-    <br>
-    <label for="email">Email:</label> <br>
-    <input type="email" id="email">
-    <br>
-    <br>
-    <label for="assunto">Assunto:</label> <br>
-    <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-    <br>
-    <br>
-    <button>Enviar</button>
-   </form>
+   <div class="container mb-50">
+    <div> 
+        
+       <form>
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome">
+        <br>
+        <br>
+        <label for="email">Email:</label> <br>
+        <input type="email" id="email">
+        <br>
+        <br>
+        <label for="assunto">Assunto:</label> <br>
+        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button>Enviar</button>
+       </form>
+    </div>
 
-   <h2>Endereço:</h2>
-    
-   <p>Av. Engenheiro Luís Carlos Berrini, 1021</p>
-   <p>São Paulo - SP </p>
+    <div class="ml-50">
+        
+        <p>Av. Engenheiro Luís Carlos Berrini, 1021</p>
+        <p>São Paulo - SP </p>
+     
+        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1683568207540!5m2!1spt-BR!2sbr!6m8!1m7!1sli5O7X1DxroR4LG9ps7rFg!2m2!1d-23.60578580758325!2d-46.69297576940927!3f100.96418958387136!4f3.312791144928184!5f0.7820865974627469" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </div>
+   </div>
 
-   <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1683568207540!5m2!1spt-BR!2sbr!6m8!1m7!1sli5O7X1DxroR4LG9ps7rFg!2m2!1d-23.60578580758325!2d-46.69297576940927!3f100.96418958387136!4f3.312791144928184!5f0.7820865974627469" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <hr>
+<footer>
+  <div class="container">
+    <a href="https://github.com/Bruna-alencar" target="_blank">
+    <img class="tm-social p30" src="Assets/img/github.png" alt="Logo do GitHub">
+    </a>
+
+    <a href="https://www.linkedin.com/in/bruna-santos-alencar-565a55193/" target="_blank">
+    <img class="tm-social p30" src="Assets/img/linkedin.png" alt="Logo do LinkedIn">
+    </a>
+    <a href=" https://www.instagram.com/invites/contact/?i=10d7vje6lom4b&utm_content=5g0g05" target="_blank">
+    <img class="tm-social p30" src="Assets/img/instagram.png" alt="Logo do Instagram">
+    </a>
+  </div>
+  <p class="center"> 
+  Todos os direitos reservados: Bruna Alencar &copy;
+</p>
+</footer>
+
 </body>
 </html>
